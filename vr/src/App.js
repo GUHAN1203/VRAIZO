@@ -5,7 +5,12 @@ import Images from './Hero/Images';
 
 function App() {
   return (
+   <BrowserRouter>
    <Navbar />
+    <Routes>
+      <Route path='/' element={<Images />}/>
+    </Routes>
+   </BrowserRouter>
     
   );
 }

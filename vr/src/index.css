@@ -6,9 +6,13 @@ body {
   display: flex;  
   padding-left: 30px;
 }
+.NavLogo{
+    color: white;
+}
 .Navi{
   padding-left: 75%;
   display: flex;
+  color: white;
   font-weight: 600;
   font-family: 'League Spartan', sans-serif;
 font-family: 'Montserrat', sans-serif;
